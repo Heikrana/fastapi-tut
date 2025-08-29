@@ -1,5 +1,6 @@
-from database import Base
 from sqlalchemy import Column, Integer, String, Boolean
+
+from TodoApp.database import Base
 
 
 class Todos(Base):
